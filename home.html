@@ -1,0 +1,463 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ecommerce Website</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet" href="css/style.css">
+    <!-- AOS -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <script src="js/bootstrap.bundle.js"></script>
+    <!-- AOS Animation -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+</head>
+<body>
+    <div class="container-fluid">
+        <div class="row  p-0" id="top">
+            <div class="col-sm-5 ">
+               <p class="text-light p-2">Free shipping for standard order over $100</p> 
+            </div>
+            <div class="col-sm-3"></div>            
+            <div class="col-sm-1  mt-2">
+              <a href="" class="top">Help FAQs</a>  
+            </div> 
+            <div class="col-sm-1 mt-2">
+               <a href="" class="top">My Account</a> 
+            </div>
+            <div class="col-sm-1 mt-2">
+               <a href=""class="top">EN</a> 
+            </div>
+            <div class="col-sm-1  mt-2">  
+                <a href=""class="top">USD</a>
+            </div> 
+            </div>  
+      
+          <!-- navbar end -->
+           <!-- header start -->
+           <div class="row bg-info text-light p-0  sticky-top head">
+            <div class="col-sm-1 py-3 px-5">
+             <a href="index.html"><img src="img/cozalogo.png" alt=""></a> 
+            </div>
+            <div class="col-sm-7 py-3 px-5">
+              <a href="index.html" class="text"><span class="m">Home</span></a>
+              <a href="shop.html" class="text"><span class="p">Shop</span></a>
+              <a href="feature.html" class="text"><span class="p">Feature</span></a>
+              <a href="about.html" class="text"><span class="p">About</span></a>
+              <a href="contact.html" class="text"><span class="p">Contact</span></a>
+            </div>
+            <div class="col-sm-4 mt-3">
+                <span style=" margin-left: 70px;"><a class="btn btn-outline-light" href="register.html" style="width: 115px; text-decoration: none;"> <b>Registater</b></a> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+                    </span>
+              <span class="">
+              <a class="btn btn-outline-light" href="register.html" style="width: 80px; text-decoration: none;"> <b>Login</b></a> &nbsp; 
+              </span>
+            </div>  
+            </div>
+            <!-- <div class="col-sm-4">
+                <i class="fa-solid fa-magnifying-glass" style="padding-left: 200px;"></i>
+                <i class="fa-solid fa-bag-shopping"style="margin-top: 23px ;  margin-left:50px; "></i>
+                <i class="fa-regular fa-heart" style=" margin-left:50px;"></i>
+            </div> -->
+           
+            <!-- header end -->
+          <!-- image start -->
+            
+          <div class="row">
+            <div class="col-sm-12 p-0">
+                <div id="carouselExampleControlsNoTouching" class="carousel slide" data-bs-touch="false">
+                    <div class="carousel-inner">
+                      <div class="carousel-item active">
+                        <img src="img/slider1.jpg" class="d-block w-100" alt="..." >
+                        <div class="carousel-caption d-none d-md-block ">
+                            <h3 class=" bounce">Women Collection 2018                                
+                            </h3>
+                            <h1 class="aos-slider"  data-aos="flip-left"
+                              data-aos-easing="ease-out-cubic"data-aos-duration="2000">NEW SECTION
+                            </h1>
+                             <button type="button"  class="btn btn-info lg rounded-pill text-light aos_slider_btn" data-aos="fade-up"
+                            data-aos-anchor-placement="bottom-center"
+                            data-aos-duration="2000">SHOP NOW</button>
+                        </div>
+                      </div>
+                      <div class="carousel-item">
+                        <img src="img/slider2.jpg" class="d-block w-100" alt="...">
+                        <div class="carousel-caption d-none d-md-block ">
+                            <h3 class=" bounce">Men New-Season                               
+                            </h3>
+                            <h1 class="aos-slider"  data-aos="flip-left"
+                              data-aos-easing="ease-out-cubic"data-aos-duration="2000" style="margin-left: -600px;">JACKETS & COATS
+                            </h1>
+                             <button type="button"  class="btn btn-info lg rounded-pill text-light aos_slider_btn" data-aos="fade-up"
+                            data-aos-anchor-placement="bottom-center"
+                            data-aos-duration="2000">SHOP NOW</button>
+                        </div>
+                      </div>
+                      <div class="carousel-item">
+                        <img src="img/slider3.jpg" class="d-block w-100" alt="...">
+                        <div class="carousel-caption d-none d-md-block ">
+                            <h3 class=" bounce">Men Collection 2018                                
+                            </h3>
+                            <h1 class="aos-slider"  data-aos="flip-left"
+                              data-aos-easing="ease-out-cubic"data-aos-duration="2000">NEW ARRIVALS
+                            </h1>
+                             <button type="button"  class="btn btn-info lg rounded-pill text-light aos_slider_btn" data-aos="fade-up"
+                            data-aos-anchor-placement="bottom-center"
+                            data-aos-duration="2000">SHOP NOW</button>
+                        </div>
+                      </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControlsNoTouching" data-bs-slide="prev">
+                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControlsNoTouching" data-bs-slide="next">
+                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Next</span>
+                    </button>
+                  </div>
+            </div>
+            <!-- <div class="col-sm-12 p-0" id="img">
+               <h3 class=" bounce" style="margin-left: 90px;margin-top: 160px;" >Women Collection 2018</h3>
+               <h1 style="margin-left: 90px; margin-top: 70px; font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; font-weight: bold; font-size:50px;" data-aos="flip-left"
+               data-aos-easing="ease-out-cubic"
+               data-aos-duration="2000">NEW SECTION </h1>
+               <button type="button"  class="btn btn-info lg rounded-pill text-light" data-aos="fade-up"
+               data-aos-anchor-placement="bottom-center"
+               data-aos-duration="2000" style="margin-left: 130px; width: 170px; margin-top: 70px;">SHOP NOW</button>
+                </div> -->
+             </div>
+             <!-- image end -->
+             <!-- card start -->
+             <div class="row">
+                <div class="col-sm-11 mx-auto">
+                      <div class="row mt-5 mb-5">
+                        <div class="card-group">
+                        <div class="col-sm-4 px-3">
+                            <div class="card" data-aos="flip-left"
+                            data-aos-easing="ease-out-cubic"
+                            data-aos-duration="2000">
+                                <img src="img/banner-01.jpg.webp" class="card-img" alt="...">
+                                
+                              </div>
+                        </div>
+                        <div class="col-sm-4  px-3">
+                            <div class="card" data-aos="flip-left"
+                            data-aos-easing="ease-out-cubic"
+                            data-aos-duration="2000">
+                                <img src="img/banner-02.jpg.webp" class="card-img-top" alt="...">
+                               
+                              </div>
+                        </div>
+                        <div class="col-sm-4 px-3">
+                            <div class="card" data-aos="flip-left"
+                            data-aos-easing="ease-out-cubic"
+                            data-aos-duration="2000">
+                                <img src="img/banner-03.jpg.webp" class="card-img-top" alt="...">
+                              </div>
+                        </div>
+                      </div>                    
+                      </div>
+                </div>
+             </div>
+             <!--card end  -->
+             <!-- product overview -->
+             <div class="row">
+                <div class="col-sm-11 mx-auto">
+                    <div class="col-sm-12 ">
+                     <h2 class="ps-3">PRODUCT OVERVIEW</h2>
+                     <div class="row ms-1">
+                        <div class="col-sm-6 my-3 ps-3">
+                            <span class="me-4"><u>All Product</u></span>
+                            <span  class="me-4">Women</span>
+                            <span  class="me-4">Man</span>
+                            <span  class="me-4">Bag</span>
+                            <span  class="me-4">Sooze</span>
+                            <span  class="me-4">Watches</span>
+                        </div>
+                        <div class="col-sm-3"></div>
+                        <div class="col-sm-3"></div>
+                     </div>
+                    </div>
+                </div>
+             </div>
+             <!--  end -->
+             <!-- 1st card start -->
+             <div class="row my-4">
+                <div class="col-sm-11 mx-auto">
+                    <div class="row">
+                        <div class="card-group">
+                        <div class="col-sm-3 px-3">
+                            <div class="card" data-aos="flip-left"
+                            data-aos-easing="ease-out-cubic"
+                            data-aos-duration="2000">
+                                <img src="img/product-01.jpg.webp" class="card-img-top img" alt="...">
+                              </div>
+                              <span class="mt-3" style="margin-right: 50px;">Esprit Ruffle Shift</span>
+                              <span style="margin-left: 80px;"><i class="fa-regular fa-heart"></i></span> <br>
+                              <p class="mt-2">$16.64</p>
+                        </div>
+                        <div class="col-sm-3 px-3">
+                            <div class="card" data-aos="flip-left"
+                            data-aos-easing="ease-out-cubic"
+                            data-aos-duration="2000">
+                                <img src="img/product-02.jpg.webp" class="card-img-top img" alt="...">
+                              </div>
+                              <span class="mt-3" style="margin-right: 50px;">Esprit Ruffle Shift</span>
+                              <span style="margin-left: 80px;"><i class="fa-regular fa-heart"></i></span> <br>
+                              <p class="mt-2">$16.64</p>
+                        </div>
+                        <div class="col-sm-3 px-3">
+                            <div class="card" data-aos="flip-left"
+                            data-aos-easing="ease-out-cubic"
+                            data-aos-duration="2000">
+                                <img src="img/product-03.jpg.webp" class="card-img-top img" alt="...">
+                              </div>
+                              <span class="mt-3" style="margin-right: 50px;">Esprit Ruffle Shift</span>
+                              <span style="margin-left: 80px;"><i class="fa-regular fa-heart"></i></span> <br>
+                              <p class="mt-2">$16.64</p>
+                        </div>
+                        <div class="col-sm-3 px-3">
+                            <div class="card" data-aos="flip-left"
+                            data-aos-easing="ease-out-cubic"
+                            data-aos-duration="2000">
+                                <img src="img/product-04.jpg.webp" class="card-img-top img" alt="...">
+                              </div>
+                              <span class="mt-3" style="margin-right: 50px;">Esprit Ruffle Shift</span>
+                              <span style="margin-left: 80px;"><i class="fa-regular fa-heart"></i></span> <br>
+                              <p class="mt-2">$16.64</p>
+                        </div>
+                    </div>    
+                    </div>
+                </div>
+             </div>
+             <!--  1st end -->
+              <!-- 2nd card start -->
+             <div class="row my-4">
+                <div class="col-sm-11 mx-auto">
+                    <div class="row">
+                        <div class="card-group">
+                        <div class="col-sm-3 px-3">
+                            <div class="card" data-aos="flip-left"
+                            data-aos-easing="ease-out-cubic"
+                            data-aos-duration="2000">
+                                <img src="img/product-05.jpg" class="card-img-top img" alt="...">
+                              </div>
+                              <span class="mt-3" style="margin-right: 50px;">Front Pocket Jumper</span>
+                              <span style="margin-left: 55px;"><i class="fa-regular fa-heart"></i></span> <br>
+                              <p class="mt-2">$34.75</p>
+                        </div>
+                        <div class="col-sm-3 px-3">
+                            <div class="card" data-aos="flip-left"
+                            data-aos-easing="ease-out-cubic"
+                            data-aos-duration="2000">
+                                <img src="img/product-06.jpg" class="card-img-top img" alt="...">
+                              </div>
+                              <span class="mt-3" style="margin-right: 50px;">Vintage Inspired Classic</span>
+                              <span style="margin-left: 34px;"><i class="fa-regular fa-heart"></i></span> <br>
+                              <p class="mt-2">$93.20</p>
+                        </div>
+                        <div class="col-sm-3 px-3">
+                            <div class="card" data-aos="flip-left"
+                            data-aos-easing="ease-out-cubic"
+                            data-aos-duration="2000">
+                                <img src="img/product-07.jpg" class="card-img-top img" alt="...">
+                              </div>
+                              <span class="mt-3" style="margin-right: 50px;">Shirt in Stretch Cotton</span>
+                              <span style="margin-left: 40px;"><i class="fa-regular fa-heart"></i></span> <br>
+                              <p class="mt-2">$52.66</p>
+                        </div>
+                        <div class="col-sm-3 px-3">
+                            <div class="card" data-aos="flip-left"
+                            data-aos-easing="ease-out-cubic"
+                            data-aos-duration="2000">
+                                <img src="img/product-08.jpg" class="card-img-top img" alt="...">
+                              </div>
+                              <span class="mt-3" style="margin-right: 50px;">Pieces Metallic Printed</span>
+                              <span style="margin-left: 40px;"><i class="fa-regular fa-heart"></i></span> <br>
+                              <p class="mt-2">$18.96</p>
+                        </div>
+                    </div>    
+                    </div>
+                </div>
+             </div>
+             <!--  2nd end -->
+               <!-- 3rd  card start -->
+             <div class="row my-4">
+                <div class="col-sm-11 mx-auto">
+                    <div class="row">
+                        <div class="card-group">
+                        <div class="col-sm-3 px-3">
+                            <div class="card" data-aos="flip-left"
+                            data-aos-easing="ease-out-cubic"
+                            data-aos-duration="2000">
+                                <img src="img/product-09.jpg" class="card-img-top img" alt="...">
+                              </div>
+                              <span class="mt-3" style="margin-right: 20px;">Converse All Star Hi Plimsolls</span>
+                              <span style="margin-left: 20px;"><i class="fa-regular fa-heart"></i></span> <br>
+                              <p class="mt-2">$75.00</p>
+                        </div>
+                        <div class="col-sm-3 px-3">
+                            <div class="card" data-aos="flip-left"
+                            data-aos-easing="ease-out-cubic"
+                            data-aos-duration="2000">
+                                <img src="img/product-10.jpg" class="card-img-top img" alt="...">
+                              </div>
+                              <span class="mt-3" style="margin-right: 50px;">Femme T-Shirt In Stripe</span>
+                              <span style="margin-left: 32px;"><i class="fa-regular fa-heart"></i></span> <br>
+                              <p class="mt-2">$25.85</p>
+                        </div>
+                        <div class="col-sm-3 px-3">
+                            <div class="card" data-aos="flip-left"
+                            data-aos-easing="ease-out-cubic"
+                            data-aos-duration="2000">
+                                <img src="img/product-11.jpg" class="card-img-top img" alt="...">
+                              </div>
+                              <span class="mt-3" style="margin-right: 50px;">Herschel supply
+                            </span>
+                              <span style="margin-left: 88px;"><i class="fa-regular fa-heart"></i></span> <br>
+                              <p class="mt-2">$63.16</p>
+                        </div>
+                        <div class="col-sm-3 px-3">
+                            <div class="card" data-aos="flip-left"
+                            data-aos-easing="ease-out-cubic"
+                            data-aos-duration="2000">
+                                <img src="img/product-12.jpg" class="card-img-top img" alt="...">
+                              </div>
+                              <span class="mt-3" style="margin-right: 50px;">Herschel supply</span>
+                              <span style="margin-left: 88px;"><i class="fa-regular fa-heart"></i></span> <br>
+                              <p class="mt-2">$63.15</p>
+                        </div>
+                    </div>    
+                    </div>
+                </div>
+             </div>
+             <!--3rd card end  -->
+             <!-- 4th card start -->
+             <div class="row my-4">
+                <div class="col-sm-11 mx-auto">
+                    <div class="row">
+                        <div class="card-group">
+                        <div class="col-sm-3 px-3">
+                            <div class="card" data-aos="flip-left"
+                            data-aos-easing="ease-out-cubic"
+                            data-aos-duration="2000">
+                                <img src="img/product-13.jpg" class="card-img-top img" alt="...">
+                              </div>
+                              <span class="mt-3" style="margin-right: 50px;">T-Shirt with Sleeve</span>
+                              <span style="margin-left: 65px;"><i class="fa-regular fa-heart"></i></span> <br>
+                              <p class="mt-2">$18.49</p>
+                        </div>
+                        <div class="col-sm-3 px-3">
+                            <div class="card" data-aos="flip-left"
+                            data-aos-easing="ease-out-cubic"
+                            data-aos-duration="2000">
+                                <img src="img/product-14.jpg" class="card-img-top img" alt="...">
+                              </div>
+                              <span class="mt-3" style="margin-right: 50px;">Pretty Little Thing</span>
+                              <span style="margin-left: 72px;"><i class="fa-regular fa-heart"></i></span> <br>
+                              <p class="mt-2">$54.79</p>
+                        </div>
+                        <div class="col-sm-3 px-3">
+                            <div class="card" data-aos="flip-left"
+                            data-aos-easing="ease-out-cubic"
+                            data-aos-duration="2000">
+                                <img src="img/product-15.jpg" class="card-img-top img" alt="...">
+                              </div>
+                              <span class="mt-3" style="margin-right: 50px;">Mini Silver Mesh Watch</span>
+                              <span style="margin-left: 34px;"><i class="fa-regular fa-heart"></i></span> <br>
+                              <p class="mt-2">$86.85</p>
+                        </div>
+                        <div class="col-sm-3 px-3">
+                            <div class="card" data-aos="flip-left"
+                            data-aos-easing="ease-out-cubic"
+                            data-aos-duration="2000">
+                                <img src="img/product-16.jpg" class="card-img-top img" alt="...">
+                              </div>
+                              <span class="mt-3" style="margin-right: 50px;">Square Neck Back</span>
+                              <span style="margin-left: 73px;"><i class="fa-regular fa-heart"></i></span> <br>
+                              <p class="mt-2">$29.64</p>
+                        </div>
+                    </div>    
+                    </div>
+                </div>
+             </div>
+             <!-- 4th card end -->
+              <!-- button start -->
+               <div class="row">
+                <div class="col-sm-12 text-center">
+                   <button type="button" class="btn btn-lg rounded-pill " id="but">LOAD MORE</button>
+                </div>
+               </div>
+                <!-- button end -->
+<!-- footer start -->
+                <div class="row bg-dark mt-5">
+                    <div class="col-sm-10 mx-auto">
+                        <div class="row bg-dark my-3">
+                            <div class="col-sm-3">
+                                <h6 class="b">Categories</h6>
+                                <ul>
+                                    <a href="" class="text-decoration-none"><li class="list-unstyled a">Women</li></a>
+                                    <a href="" class="text-decoration-none"><li class="list-unstyled a">Man</li></a>
+                                    <a href="" class="text-decoration-none"><li class="list-unstyled a">Sooze</li></a>
+                                    <a href="" class="text-decoration-none"><li class="list-unstyled a">Watches</li></a>
+            
+                                    
+                                </ul>
+                            </div>
+                            <div class="col-sm-3">
+                                <h6 class="b">Help</h6>
+                                <ul>
+                                    <a href="" class="text-decoration-none"><li class="list-unstyled a">Track Order</li></a>
+                                    <a href="" class="text-decoration-none"><li class="list-unstyled a">Return</li></a>
+                                    <a href="" class="text-decoration-none"><li class="list-unstyled a">Shipping</li></a>
+                                    <a href="" class="text-decoration-none"><li class="list-unstyled a">FAQS</li></a>
+            
+                                </ul> 
+                            </div>
+                            <div class="col-sm-3">
+                                <h6 class="b">GET IN TOUCH</h6>
+                                <ul>
+                                    <a href="" class="text-decoration-none"><li class="list-unstyled a">Any questions? Let us know in store at 8th floor, 379 Hudson St, New York, NY 10018 or call us on (+1) 96 716 6879
+                                    </li></a>
+                                    <i class="fa-brands fa-facebook fs-4 mt-2" style="color: white;"></i>
+                                    <i class="fa-brands fa-instagram fs-4 ms-2 mt-2" style="color: white;"></i> <br>
+                                   
+
+            
+                                </ul>
+                            </div>                           
+                            <div class="col-sm-3">                                
+                                 <h6 class="b">Newsletter</h6>
+                                 <p class="a" style="margin-left: 20px; margin-top: 25px; ">email@example.com</p>
+                                <hr class="hr">
+                                <button type="button" class="btn  rounded-pill ms-4" id="hov">SUSCRIBE</button>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-sm-12 text-center">
+                                <img src="img/icon-pay-01.png" alt="">
+                                <img src="img/icon-pay-02.png" alt="">
+                                <img src="img/icon-pay-03.png" alt="">
+                                <img src="img/icon-pay-05.png" alt="">
+                                <img src="img/icon-pay-02.png" alt="">
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-sm-12 text-center p-3">
+                            <small class="a">Copyright ©2024 All rights reserved | Made with <i class="fa-regular fa-heart"></i> by <b style="color: blue;">Colorlib</b> & distributed by <b style="color: blue;">ThemeWagon</b></small>
+                            </div>
+                        </div>
+                    </div>
+                </div> 
+                  <!--  -->
+            
+                  
+    </div>
+    <script>
+        AOS.init();
+      </script>
+</body>
+</html>
