@@ -1,0 +1,158 @@
+*{
+    margin: 0px;
+    padding: 0px;
+
+}
+.head{
+    background-color: black;
+    /* background-color: rgb(247, 243, 243); */
+     height: 40px;
+
+}
+/* header */
+#header{
+    background-color: white;
+}
+
+.m{ 
+    
+    margin-left: 80px;
+    padding: 5px;
+    text-decoration: none;
+    color: black;
+
+}
+a .m{
+    
+color: black;
+}
+ .p{
+    margin-left: 25px;
+    color: black;
+   
+}
+a .p{
+   
+
+    color: black;
+   
+
+}
+.text{
+    text-decoration: none;
+    
+}
+/* footer class */
+.a{
+    color: rgb(204, 198, 198);
+    font-size:14px;
+    padding: 10px;
+}
+/*  */
+.top{
+    color: rgb(204, 198, 198);
+    font-size:14px;
+    text-decoration: none;
+   
+}
+
+.b{
+    color: white;
+    margin-left: 30px;
+    text-transform:uppercase;
+    margin-top: 50px;
+    
+}
+
+#img{
+    background-image: url('../img/product-01.jpg.webp');
+    background-size: cover;
+    height: 800px;
+    width: 100%;
+}
+#con{
+    border: 1px solid gray;
+    height: 540px;
+    width: 740px;
+    
+    
+    
+    
+}
+#co{
+    border: 1px solid gray;
+   margin-right: 10px;
+    height: 700px; 
+    width: 350px;
+
+    
+}
+#btn{
+    width: 450px; 
+    height: 47px;
+}
+#btn:hover{
+    background-color: rgb(73, 73, 211);
+}
+.j{
+    margin-left: 80px;
+}
+.k{
+    margin-left: 110px;
+}
+
+
+
+.boot{
+    color: rgb(119, 115, 115);
+    font-size: larger;
+}
+#but{
+    width: 170px;
+    font-size:medium;
+    background-color: rgb(216, 224, 233);
+    color: black;
+}
+
+#butt{
+    width: 190px;
+    font-size:medium;
+    background-color: rgb(216, 224, 233);
+    color: black;
+}
+
+#butt:hover{
+    background-color: rgb(87, 87, 224);
+  color: white;
+}
+#but:hover{
+    background-color: rgb(99, 99, 228);
+  color: white;
+}
+
+#butto{
+    width: 250px;
+    font-size:medium;
+    color: rgb(216, 224, 233);
+   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-left: 50px;
+}
+#butto:hover{
+    background-color: rgb(87, 87, 224);
+  color: white;
+}
+
+.cardt{
+    font-weight: bolder;
+    text-transform:uppercase;
+   margin-left: 1px;
+    margin-top: 40px;
+    padding: 20px;
+}
+.subt{
+    margin-left: 17px;
+    margin-top: 30px;
+}
+.bold{
+    color: rgb(66, 64, 64);
+}
